@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SPA Center </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Spa" name="keywords">
+    <meta content="Spa Website" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Link Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0" id="root" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <img src="img/logo.png" class="logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="#navbar" data-translate="hometext" class="nav-item nav-link active text-white">Home</a>
+                    <a href="#about" data-translate="about" class="nav-item nav-link text-white">About</a>
+                    <a href="#service" data-translate="service" class="nav-item nav-link text-white">Services</a>
+                    <a onclick="openModal('modal-12')" id="#gal" class="nav-item nav-link text-white " href="#gallery" data-translate="gallery" class="nav-item nav-link text-white">Gallery</a>
+                    <a href="#contact" data-translate="contact" class="nav-item nav-link text-white">Contact</a>
+                </div>
+                <div class="flags">
+                    <img class="flag usa" src="img/ffa.png" alt="English" data-lang="en">
+                    <img class="flag grecee" src="img/flag-greece.png" alt="el" data-lang="el">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class=" p-0 mb-5 pb-5" id="carousel">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="active" style="min-height: 100vh;">
+                    <video class="position-absolute w-100 h-100 hero-vid" src="media/home-intro.mp4" autoplay muted loop></video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="hero-container">
+                            <div class="hero-top-txt">
+                                <h3 class="s--magic display-3 text-capitalize text-primary mb-3">Magic Hands</h3>
+                            </div>
+                            
+                            <div class="hero-info">
+                                <div class="info-cont">
+                                    <div class="hours-text hitem">
+                                        <h6 data-translate="masseuse" class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Masseuse</h6>
+                                        
+                                        <h1 data-translate="khBakuradze" class="mb-4 text-primary">Khatia Bakuradze</h1>
+                                        <p class="about-text">
+                                            <li class="hero-li" data-translate="aboutKhatia">Certified Skilled Massage Therapist</li>
+                                            <li class="hero-li" data-translate="wwvh">Worked with various hotels</li>
+                                            <li class="hero-li" data-translate="mhc">Many happy customers</li>
+                                            <li class="hero-li" data-translate="wowmc">Winner of World Massage Championship</li>
+                                            <li data-translate="fPlace" class="hero-li">15 years of work experience.</li>
+                                        </p>
+                                        <h2 data-translate="qualifications" class="text-primary" style="letter-spacing: 3px;">Massage coach</h2>
+                                        <ul class="list-inline">
+                                            <li data-translate="sPlace" class="h6 py-1 text-white" style="text-decoration: underline; text-transform: uppercase;">Specializing in various techniques such as: </li>
+                                            <li data-translate="certified" class="h6 py-1 text-white">Facial Rejuvenation Massage</li>
+                                            <li data-translate="bom" class="h6 py-1 text-white">Body oil massage</li>
+                                            <li data-translate="gusha" class="h6 py-1 text-white">Gua Sha</li>
+                                            <li data-translate="tmas" class="h6 py-1 text-white">Thai massage</li>
+                                            <li data-translate="cumasag" class="h6 py-1 text-white">Cupping</li>
+                                        </ul>
+                                        <a data-translate="cN" href="#contact" class="btn btn-primary mt-2">Contact Now</a>
+                                    </div>
+
+                                    
+                                    <div class="hero-img hitem">
+                                        <img src="img/khatia.jpg" class="khatia-hero">
+                                    </div>
+
+                                    <div class="ac hero-cert gitem">
+                                        <img class="ac1" src="img/ach-2.jpg">
+                                        <img class="ac2" src="img/ach-3.jpg">
+                                        <img class="ac3" src="img/ach-4.jpg">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pb-5 pb-lg-0">
+                    <img class="w-100" src="img/ach-1.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h6 data-translate="aboutUs" class="d-inline-block text-primary text-uppercase bg-light py-1 px-2" style="font-weight: 900 !important;">About Us</h6>
+                    <h1 data-translate="bestMm" class="mb-4 text-primary">Best Masseuse</h1>
+                    <p data-translate="eur" class="pl-4 border-left border-primary">Experience Unmatched Relaxation and Wellness with Our Exceptional Masseuses: Elevate Your Journey to New Heights of Comfort, Renewal, and Total Relaxation</p>
+                    <div class="row pt-3">
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">14</h3>
+                                <h6 data-translate="hsrv" class="text-uppercase text-bold">Hotels Served</h6>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">+200</h3>
+                                <h6 data-translate="hClients" class="text-uppercase text-bold">Happy Clients</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid px-0 py-5 my-5" id="service">
+        <div class="row mx-0 justify-content-center text-center">
+            <div class="col-lg-6">
+                <h6 data-translate="ourService" class="d-inline-block bg-light text-primary text-uppercase py-1 px-2 text-bold">Our Service</h6>
+                <h1 data-translate="spaBeauty" class="text-primary">Spa & Beauty Services</h1>
+            </div>
+        </div>
+        <div class="owl-carousel service-carousel">
+            <div class="service-item position-relative" data-name="p-1">
+                <img class="img-fluid" src="img/back-shoulder.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="backShoulder" class= "text-primary font-weight-bold px-3">Back and Shoulder Massage</h4>
+                    <p data-translate="backShoulderMassage" class="text-white px-3 mb-3">Back and shoulder massages are great for relaxing muscles and relieving tension.</p>
+                    <div class="conteiner w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-1')" class="modal-button">info</button>             
+                    </div>
+                </div>
+            </div>  
+            <div class="service-item position-relative" data-name="p-2">
+                <img class="img-fluid" src="img/head-back.jpg" alt="Head And Back Massage Photo">
+                <div class="service-text text-center">
+                    <h4 data-translate="headBack" class="text-primary font-weight-bold px-3">Head and Back Massage</h4>
+                    <p data-translate="headBackMassage" class="text-white px-3 mb-3">Prioritize your vitality and experience a
+                         rejuvenating head and back massage today!</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-2')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-3">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="faceLifting" class="text-primary font-weight-bold px-3">Face Lifting</h4>
+                    <p data-translate="faceLiftingMassage" class="text-white px-3 mb-3">Refresh and rejuvenate with a head and back massage
+                         and a face lifting treatment today!</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-3')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/lymphic.webp" alt="" data-name="p-4">
+                <div class="service-text text-center">
+                    <h4 data-translate="lympatatic" class="text-primary font-weight-bold px-3">Lympahatic Dranage Massage</h4>
+                    <p data-translate="lympataticMassage" class="text-white px-3 mb-3">Lymphatic drainage massage boosts circulation, reduces
+                         swelling, and aids detoxification.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-4')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-5">
+                <img class="img-fluid" src="img/deep-tissue.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="deepTissue" class="text-primary font-weight-bold px-3">Deep tissue</h4>
+                    <p data-translate="deepTissueMassage" class="text-white px-3 mb-3">Deep tissue massage targets deep muscles to relieve tension, ease pain, and enhance flexibility.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-5')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-6">
+                <img class="img-fluid" src="img/service-4.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="medical" class="text-primary font-weight-bold px-3">Medical treatments</h4>
+                    <p data-translate="medicalMassage" class="text-white px-3 mb-3">Medical treatments include medications, surgeries, and preventive care for managing and curing diseases.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-6')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-7">
+                <img class="img-fluid" src="img/japanesem.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="japanese" class="text-primary font-weight-bold px-3">Japanese massage</h4>
+                    <p data-translate="japaneseMassage" class="text-white px-3 mb-3">Japanese massage blends ancient traditions with modern therapies for relaxation and healing.</p>
+                    <div class="fixer w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-7')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-8">
+                <img class="img-fluid" src="img/swed.jpeg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="swedish" class="text-primary font-weight-bold px-3">Swedish massge</h4>
+                    <p data-translate="swedishMassage" class="text-white px-3 mb-3">Swedish massage relaxes muscles with gentle pressure and long strokes, promoting well-being.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-8')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-9">
+                <img class="img-fluid" src="img/Adult-woman-having-hot-stone-m-597x717.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 data-translate="hotStone" class="text-primary font-weight-bold px-3">Hot stone massge</h4>
+                    <p data-translate="hotStoneMassage" class="text-white px-3 mb-3">Hot stone massage uses heated stones to relax muscles and promote relaxation and well-being.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-9')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-10">
+                <img class="img-fluid" src="img/thai.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="thai" class="text-primary font-weight-bold px-3">Thai massge</h4>
+                    <p data-translate="thaiMassage" class="text-white px-3 mb-3">Thai massage combines stretching and pressure techniques to improve flexibility and promote relaxation.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-10')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-11">
+                <img class="img-fluid" src="img/cup-therapy.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="cup" class="text-primary font-weight-bold px-3">Cupping Therapy</h4>
+                    <p data-translate="cupMassage" class="text-white px-3 mb-3">Cupping therapy uses suction cups to boost blood flow and relax muscles, leaving temporary marks.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-11')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-13">
+                <img class="img-fluid" src="img/anti_cellulite.webp">
+                <div class="service-text text-center">
+                    <h4 data-translate="antiCell" class="text-primary font-weight-bold px-3">Anti Cellulite massge</h4>
+                    <p data-translate="antiCellbio" class="text-white px-3 
+                    mb-3">
+                    Anti-cellulite massage reduces cellulite by improving circulation and breaking down fat.
+                    </p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-13')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item position-relative" data-name="p-15">
+                <img class="img-fluid" src="img/prenatal massage.jpeg">
+                <div class="service-text text-center">
+                    <h4 data-translate="prenatal" class="text-primary font-weight-bold px-3">Prenatal massage</h4>
+                    <p data-translate="prenatalMassage" class="text-white px-3 mb-3">Designed to relieve pregnancy discomfort and promote relaxation.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-15')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-16">
+                <img class="img-fluid" src="img/Candle-massage.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="candle" class="text-primary font-weight-bold px-3">Candle experience</h4>
+                    <p data-translate="candleExperience" class="text-white px-3 mb-3">
+                        Luxurious candle experience massage for deep relaxation and skin hydration.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-16')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-17">
+                <img class="img-fluid" src="img/massage-aromatherapy-1.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="signature" class="text-primary font-weight-bold px-3">Signature aromatherapy massge</h4>
+                    <p data-translate="signatureAromath" class="text-white px-3 mb-3">Signature aromatherapy massage for ultimate relaxation and rejuvenation.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-17')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-18">
+                <img class="img-fluid" src="img/Foot-massage-technique.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="reflexology" class="text-primary font-weight-bold px-3">Reflexologys massage</h4>
+                    <p data-translate="reflexologyMassage" class="text-white px-3 mb-3">Reflexology sessions enhance wellness through foot and hand pressure point stimulation.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-18')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-19">
+                <img class="img-fluid" src="img/holistic-massage_orig.png">
+                <div class="service-text text-center">
+                    <h4 data-translate="holistic" class="text-primary font-weight-bold px-3">Holistic approach massage</h4>
+                    <p data-translate="holisticApproach" class="text-white px-3 mb-3">Holistic approach massage integrates body, mind, and spirit for comprehensive wellness.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-19')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-20">
+                <img class="img-fluid" src="img/sportmassage.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="sports" class="text-primary font-weight-bold px-3">Sports massage</h4>
+                    <p data-translate="sportsMassage" class="text-white px-3 mb-3">Sports massage enhances athletic performance and aids in muscle recovery.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-20')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-21">
+                <img class="img-fluid" src="img/rejuvans.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="rejuvans" class="text-primary font-weight-bold px-3">Rejuvans massage</h4>
+                    <p data-translate="rejuvansMassage" class="text-white px-3 mb-3">Rejuvans rejuvenation and relaxation with specialized techniques.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-21')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-22">
+                <img class="img-fluid" src="img/gua sha.webp">
+                <div class="service-text text-center">
+                    <h4 data-translate="guaSha" class="text-primary font-weight-bold px-3">Gua sha massage</h4>
+                    <p data-translate="guaShaMassage" class="text-white px-3 mb-3">Gua Sha enhances circulation and promotes healing through skin scraping techniques.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-22')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-23">
+                <img class="img-fluid" src="img/face.webp">
+                <div class="service-text text-center">
+                    <h4 data-translate="faceSculpture" class="text-primary font-weight-bold px-3">Face sculpture treatments</h4>
+                    <p data-translate="faceSculptureM" class="text-white px-3 mb-3">Face sculpture treatments enhance facial features through advanced cosmetic techniques.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-23')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-24">
+                <img class="img-fluid" src="img/buccal.jpg">
+                <div class="service-text text-center">
+                    <h4 data-translate="buccal" class="text-primary font-weight-bold px-3">Buccal face massage</h4>
+                    <p data-translate="buccalFace" class="text-white px-3 mb-3">Buccal face massage focuses on cheek and jaw muscle relaxation and rejuvenation.</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button data-translate="bInfo" onclick="openModal('modal-24')" class="modal-button">info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Service End -->
+
+        <!-- Popup Modal -->
+        <div id="modal-1" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/back-shoulder.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="backShoulder"
+                        >Back and Shoulder Massage</h1>
+                        <p data-translate="bBig" style=>
+                            A back and shoulder massage is a therapeutic treatment that specifically targets the muscles and tissues of the back and shoulders, aiming to release tension, alleviate stiffness, and improve circulation. This deeply relaxing therapy not only promotes physical relaxation but also enhances mental well-being, providing a rejuvenating experience that helps restore balance and comfort to the body.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-2" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-6.jpg" alt="">
+                    <div class="modal-text">
+                        <h1  data-translate="headBack">Head and Back Massage</h1>
+                        <p data-translate="hBig" style=>A head and back massage focuses on relieving tension and promoting relaxation in these areas. It combines gentle strokes and pressure techniques to alleviate stress and improve overall well-being. This therapeutic treatment not only targets physical discomfort but also enhances mental clarity, leaving you feeling rejuvenated and balanced.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-3" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-1.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="faceLifting"
+                        >Face Lifting
+                    </h1>
+                        <p data-translate="fBig" style=>Face lifting treatments aim to rejuvenate facial skin by tightening muscles and reducing wrinkles. They often involve non-surgical techniques like radiofrequency or microcurrent stimulation, promoting collagen production for a firmer, more youthful appearance. These treatments not only lift sagging skin but also enhance facial contours and improve skin texture, restoring a more youthful and radiant look.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-4" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/lymphic.webp" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="lympatatic"
+                        >Lympahatic Dranage Massage
+                    </h1>
+                        <p data-translate="lBig" style=>Lymphatic drainage massage stimulates the lymphatic system to improve circulation and reduce swelling. Using gentle, rhythmic strokes, this massage helps detoxify the body, enhance immune function, and promote overall health. It's beneficial for reducing fluid retention and improving skin health, leaving you feeling refreshed and revitalized.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-5" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/deep-tissue.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="deepTissue"
+                        >Deep tissue</h1>
+                        <p data-translate="dBig" style=>Deep tissue massage targets deep muscle layers to relieve chronic tension and pain. Using slow, firm strokes, it helps break up scar tissue and improve blood flow. Ideal for muscle injuries or chronic pain, it promotes better mobility and muscle health. The focused pressure and deep techniques release muscle knots, leaving you feeling flexible and relaxed.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-6" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-4.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="medical"
+                        >Medical treatments</h1>
+                        <p data-translate="mBig" style=>
+                            Medical treatments like medications, surgeries, therapies, and procedures manage, cure, or alleviate symptoms of illnesses. Examples include cardiovascular care with medications and surgeries, cancer treatments such as chemotherapy or surgery, mental health therapies like psychotherapy, and diabetes management involving insulin therapy and diet monitoring.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-7" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/japanesem.png" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="japanese">Japanese massage
+                        </h1>
+                        <p data-translate="jBig" style=>Japanese massage techniques like Shiatsu and Anma focus on relieving tension and promoting relaxation through pressure points and kneading. Shiatsu uses finger and palm pressure to enhance energy flow, while Anma incorporates kneading and tapping for muscle relaxation and improved circulation. Both methods draw from traditional Japanese healing practices for holistic well-being.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-8" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/swed.jpeg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="swedish">Swedish massge
+                        </h1>
+                        <p data-translate="sBig" style=>Swedish massage is a popular therapeutic technique involving long strokes, kneading, and circular movements to relax muscles, improve circulation, and promote overall relaxation. It's known for its gentle yet effective approach in reducing tension and enhancing well-being.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-9" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/Adult-woman-having-hot-stone-m-597x717.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="hotStone"
+                        >Hot stone massge
+                    </h1>
+                        <p data-translate="hBig" style=>Hot stone massage involves placing heated stones on specific points of the body to relax muscles and promote relaxation. Therapists may also use the stones to massage the body, combining heat with pressure to alleviate tension and improve circulation. It's known for its soothing effects and ability to enhance overall well-being.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-10" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/thai.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="thai"
+                        >Thai massge
+                    </h1>
+                        <p data-translate="tBig" style=>Thai massage combines acupressure, yoga-like stretching, and Ayurvedic principles to release muscle tension, enhance flexibility, and promote overall relaxation and well-being. Therapists use hands, elbows, knees, and feet to apply pressure along energy lines, providing both physical and mental rejuvenation.</p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-11" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/cup-therapy.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="cup"
+                        >Cupping Therapy
+                    </h1>
+                        <p data-translate="cBig" style=>Cupping therapy involves placing cups on the skin to create suction. This suction helps increase blood flow to the area, promoting healing and relieving muscle tension. It's often used to treat pain, inflammation, and improve circulation. The cups can be left in place or moved around depending on the desired therapeutic effect.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-12" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body-gallery">
+                    <h1 class="gallery-title">Gallery</h1>
+
+                    <div class="modal-vids">
+                        <video src="media/home-intro-2.mp4" controls></video>
+                        <video src="media/home-intro-3.mp4" controls></video>
+                        <video src="media/ai-vid-1.mp4" controls></video>
+                        <video src="media/ai-vid-2.mp4" controls></video>
+                        <video src="media/massage-vid-1.mp4" controls></video>
+                        <video src="media/massage-vid-2.mp4" controls></video>
+                    </div>
+
+                    <button class="btn-close" onclick="closeModal()">X</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-13" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/anti_cellulite.webp" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="antiCell"
+                        >Anti Cellulite massge
+                    </h1>
+                        <p data-translate="antiBig">Anti-cellulite massage targets deep tissue to reduce the appearance of cellulite by improving blood flow and lymphatic drainage. Using firm pressure and specialized techniques, it aims to smooth skin texture and tighten areas affected by cellulite, promoting a more toned appearance over time.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-14" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/Spa  treatments.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="spatr"
+                        >Spa treatments
+                    </h1>
+                        <p data-translate="spaBig">Spa treatments encompass massages, facials, body wraps, and hydrotherapy, designed for relaxation and health benefits. They address stress, skin care, and muscle relaxation, promoting overall well-being through therapeutic techniques and soothing experiences.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-15" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/prenatal massage.jpeg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="prenatal" 
+                        >Prenatal massage
+                    </h1>
+                        <p data-translate="prentBig" style=>Prenatal massage relieves discomfort and promotes relaxation for expectant mothers. It targets areas like the back, hips, and legs, easing muscle tension and improving circulation. Consult your healthcare provider before scheduling.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-16" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/Candle-massage.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="candle">Candle experience</h1>
+                        <p data-translate="candlBig" style=>Candle experiences involve using candles for a soothing ambiance during activities like massages or relaxation. Their soft light and fragrance enhance calmness, commonly found in spas or personal self-care routines.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-17" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/massage-aromatherapy-1.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="signature"
+                        >Signature aromatherapy massge
+                    </h1>
+                        <p data-translate="mmBig" style=>Signature aromatherapy massage" blends essential oils with therapeutic techniques to relax the body and mind, relieve tension, and enhance well-being through aromas and touch.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-18" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/Foot-massage-technique.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="reflexology"
+                        >Reflexologys massage
+                    </h1>
+                        <p data-translate="footBig" style=>Reflexology massage" targets pressure points on the feet, hands, and ears to promote relaxation, relieve tension, and improve overall well-being through stimulation of the body's natural healing processes.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-19" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/holistic-massage_orig.png" alt="">
+                    <div class="modal-text">
+                        <h1data-translate="holistic"
+                        >Holistic approach massage
+                    </h1>
+                        <p data-translate="holistBig" style=>Holistic approach massage" integrates body, mind, and spirit to promote overall well-being. It combines various techniques to relax muscles, relieve stress, and restore balance, aiming for a comprehensive healing experience.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-20" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/sportmassage.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="sports"
+                        >Sports massage
+                    </h1>
+                        <p data-translate="sportBig" style=>Sports massage focuses on treating muscles used for athletic performance. It aims to improve flexibility, prevent injuries, and enhance recovery through techniques like deep tissue massage and stretching.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-21" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/rejuvans.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="rejuvans"
+                        >Rejuvans massage
+                    </h1>
+                        <p data-translate="rejuBig" style=>Rejuvans massage is designed to revitalize and rejuvenate the body, promoting relaxation and restoring energy through specialized techniques and soothing movements.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-22" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/gua sha.webp" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="guaSha"
+                        >Gua sha massage
+                    </h1>
+                        <p data-translate="guaBig" style=>Gua sha massage" involves scraping the skin with a tool to improve circulation and relieve muscle tension. It's used to reduce inflammation, promote healing, and enhance overall well-being.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-23" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/face.webp" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="faceSculpture"
+                        >Face sculpture treatments
+                    </h1>
+                        <p data-translate="faceBig" style=>Face sculpture treatments" involve techniques to contour and enhance facial features, using massages, tools, or products to improve skin tone, reduce puffiness, and promote a more sculpted appearance.
+                        </p>
+                    </div>
+                    <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div> 
+
+        <!-- Pricing Start -->
+        <div class="container-fluid bg-pricing" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100 gift-img" src="img/pricing.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pt-5 pb-lg-5">
+                        <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
+                            <div class="owl-carousel pricing-carousel">
+                                <div class="bg-white">
+                                    <div
+                                        class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                        <h1 data-translate="makeaGift" class="display-4 mb-0">
+                                            Make a Gift
+                                        </h1>
+                                    </div>
+                                    <div class="p-4 text-dark text-bold">
+                                        <p data-translate="egw" style="font-weight: 300;">Easy gift-giving with beautifully packaged options.</p>
+                                        <p data-translate="tyl" style="font-weight: 300;">Treat your loved ones to relaxation.</p>
+                                        <p data-translate="tof" style="font-weight: 300;">Tailored options for every preference.</p>
+                                        <p data-translate="sfb" style="font-weight: 300;">Suitable for birthdays, anniversaries, holidays.</p>
+
+                                        <a data-translate="on" href="#contact" class="btn btn-primary my-2">Order Now</a>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div
+                                        class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                        <h1 data-translate="bbct" class="display-4 mb-0 gift-txt">
+                                            Bachelorette
+                                        </h1>
+                                    </div>
+                                    <div class="p-4 text-dark text-bold">
+                                        <p data-translate="ifb" style="font-weight: 300;">Ideal for bonding and relaxation.</p>
+                                        <p data-translate="thb" style="font-weight: 300;">Treat the bride-to-be to luxury.</p>
+                                        <p data-translate="psf" style="font-weight: 300;">Pre-wedding skincare for the entire party.</p>
+                                        <p data-translate="grf" style="font-weight: 300;">Get ready for the big day in style.</p>
+
+                                        <a data-translate="on" href="#contact" class="btn btn-primary my-2">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pb-5 pb-lg-0">
+                        <img class="img-fluid w-100" src="img/hotel-1.jpg" alt="Hotel Photo">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 data-translate="testimonial" class="d-inline-block text-primary text-uppercase bg-light py-1 px-2 text-bold">Testimonial</h6>
+                        <h1 data-translate="hs" class="mb-4 text-primary">Hotels Served</h1>
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="rounded-circle" src="img/hotel-1.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 data-translate="hotelName" class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span data-translate="testimonial1" >InterContinental Athens</span>
+                                    </div>
+                                </div>
+                                <p data-translate="info1" class="m-0">"Khatia Bakuradze has been an incredible addition to our spa team. Her expertise in various massage techniques, especially her award-winning Lomi-Lomi massage, has received rave reviews from our guests. Her professionalism and dedication to providing exceptional service make her a true asset to our hotel."
+                                </p>
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="rounded-circle" src="img/hotel-2.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 data-translate="hotelName"  class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span data-translate="testimonial2" >Masazaki in Glifada</span>
+                                    </div>
+                                </div>
+                                <p data-translate="info2" class="m-0">"Since joining us, Khatia has brought a new level of excellence to our spa services. Her skill in traditional Thai massage and therapeutic treatments has made a significant impact on our clients' well-being. We highly recommend Khatia for her outstanding commitment to holistic health and relaxation."
+                                </p>
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="rounded-circle" src="img/hotel-3.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 data-translate="hotelName"  class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span data-translate="testimonial3" >Royal Mosxoy Spa</span>
+                                    </div>
+                                </div>
+                                <p data-translate="info3"  class="m-0">"We are thrilled to have Khatia Bakuradze as part of our team. Her achievements, including her top honors at the World Massage Championship, speak volumes about her talent and dedication. Our clients consistently praise her deep tissue massages and facial rejuvenation treatments. Khatia truly elevates our spa experience."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <div class="row justify-content-center bg-appointment mx-0" id="contact">
+            <div class="col-lg-6 py-5">
+                <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
+                    <h1 data-translate="Appointment" class="text-primary text-center mb-4">Make Appointment</h1>
+                    
+                    <form action="https://getform.io/f/zazkknyb" method="POST" target="_blank">
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input data-translate="usrplaceholder" type="text" id="name" name="name" class="form-control bg-transparent p-4" placeholder="Your Name"
+                                        required="required" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input data-translate="emailplaceholder" type="email" id="email" name="email" class="form-control bg-transparent p-4" placeholder="Your Email"
+                                        required="required" />
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input data-translate="dataplaceholder" type="text" id="Select Date" name="date" class="form-control bg-transparent p-4 datetimepicker-input"
+                                            placeholder="Select Date" data-target="#date"
+                                            data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input data-translate="timeplaceholder" type="text" id="Select Time" name="time" class="form-control bg-transparent p-4 datetimepicker-input"
+                                            placeholder="Select Time" data-target="#time"
+                                            data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="custom-select bg-transparent px-4" name="service" style="height: 47px;">
+                                        <option data-translate="selectService" id="Select A" selected>Select A Service</option>
+                                        <option data-translate="s1" id="S1" value="1">Service 1</option>
+                                        <option data-translate="s2" id="S2" value="2">Service 1</option>
+                                        <option data-translate="s3" id="S3" value="3">Service 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <button data-translate="mApointment" class="btn btn-primary btn-block" type="submit" style="height: 47px;">Make
+                                    Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mb-3 text-white"><span class="text-primary">Magic</span> Hands</h1>
+                    </a>
+                    <p data-translate="footer_p">Follow us on social media for updates and specials! Find our location, email, and phone number below.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, Tbilisi, Georgia</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+995 123 123</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@gmail.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top py-4"
+        style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">Magic Hands</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="#">Nika Arudashvili</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#carousel" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- React Language Switcher -->
+    <script src="src/index.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- translate -->
+    <script src="translates.js"></script>
+
+    <!-- Gmail -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        const form = document.getElementById("form");
+        form.addEventListener("submit", formSubmit);
+    
+        function formSubmit(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+    
+            fetch("https://getform.io/f/zazkknyb", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    "Accept": "application/json",
+                },
+            })
+            .then(response => console.log(response))
+            .catch(error => console.log(error))
+        }
+    </script>
+    
+</body>
+
+</html>
