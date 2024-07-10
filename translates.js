@@ -210,6 +210,7 @@ const translations = {
 
     // a
     on: "Order Now",
+    oNow: "Order Now",
 
     // Placeholders
     usrplaceholder: "Your Name",
@@ -427,6 +428,7 @@ const translations = {
 
     // a
     on: "Παραγγείλτε τώρα",
+    oNow: "Παράγγειλε τώρα",
 
     // Placeholders
     usrplaceholder: "Το όνομα σου",
